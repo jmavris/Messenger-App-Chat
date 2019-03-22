@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 mongoose.Promise = Promise
 
 // Mongoose Connection (Localhost Setup)
-var dbUrl = "mongodb+srv://jmavris:y8tDVT3i@app-hw2jh.mongodb.net/test?retryWrites=true"
+var dbUrl = "mongodb+srv://jmavris:myPasswordMaskedi@app-hw2jh.mongodb.net/test?retryWrites=true"
 
 // Message Model 
 var Message = mongoose.model('Message', {
